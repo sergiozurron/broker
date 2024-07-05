@@ -7,14 +7,16 @@ public class Lease {
 	private String user;
 	private long agency;
 	private Date date;
-	private double rentalPayment;
+	private int days;
+	private double payment;
 
-	public Lease(String user, long agency, Date date, double rentalPayment) {
+	public Lease(String user, long agency, Date date, int days, double payment) {
 		super();
 		this.user = user;
 		this.agency = agency;
 		this.date = date;
-		this.rentalPayment = rentalPayment;
+		this.days = days;
+		this.payment = payment;
 	}
 
 	public String getUser() {
@@ -41,12 +43,20 @@ public class Lease {
 		this.date = date;
 	}
 
-	public double getRentalPayment() {
-		return rentalPayment;
+	public double getPayment() {
+		return payment;
 	}
 
-	public void setRentalPayment(double rentalPayment) {
-		this.rentalPayment = rentalPayment;
+	public void setPayment(double payment) {
+		this.payment = payment;
+	}
+
+	public int getDays() {
+		return days;
+	}
+
+	public void setDays(int days) {
+		this.days = days;
 	}
 
 }
