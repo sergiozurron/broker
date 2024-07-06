@@ -1,6 +1,6 @@
-package business;
+package main.java.com.broker.business;
 
-import persistence.UserDAO;
+import main.java.com.broker.data.UserDAO;
 
 public class UserSA {
 	

@@ -1,11 +1,13 @@
-package persistence;
+package main.java.com.broker.data;
 
 import java.sql.Connection;
+
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import business.User;
+import main.java.com.broker.business.User;
+
 
 public class UserDAO {
 

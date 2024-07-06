@@ -1,4 +1,4 @@
-package business;
+package main.java.com.broker.business;
 
 public class Billboard {
 	
