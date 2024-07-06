@@ -1,5 +1,4 @@
-DROP TABLE billboard CASCADE;
-CREATE TABLE billboard(
+CREATE TABLE IF NOT EXISTS billboard(
    id          INTEGER  NOT NULL PRIMARY KEY 
   ,coordinates NUMERIC(11,7) NOT NULL
   ,agency_id   BIGINT   NOT NULL

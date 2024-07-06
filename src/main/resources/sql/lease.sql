@@ -1,5 +1,4 @@
-DROP TABLE lease;
-CREATE TABLE lease(
+CREATE TABLE lease IF NOT EXISTS(
    user_email  VARCHAR(36) NOT NULL 
   ,billboard   INTEGER  NOT NULL
   ,date_time   DATE  NOT NULL

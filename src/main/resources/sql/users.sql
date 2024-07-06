@@ -1,6 +1,4 @@
-DROP TABLE users;
-
-CREATE TABLE users(
+CREATE TABLE users IF NOT EXISTS(
    email      VARCHAR(36) NOT NULL PRIMARY KEY
   ,first_name VARCHAR(10) NOT NULL
   ,last_name  VARCHAR(15) NOT NULL
